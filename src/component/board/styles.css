@@ -1,0 +1,23 @@
+.boardContainer{
+    text-align: center;
+    position: relative;
+    width:960px;
+    margin:0 auto;
+}
+.board {
+
+    margin:0 auto;
+    width: auto ;
+    height: auto;
+    clear:both;
+}
+
+.tileField{
+    margin-top:3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     /*bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
